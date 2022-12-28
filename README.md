@@ -10,4 +10,11 @@ poetry add --dev pkg<br>
 3- Initalize with git and generate gitignore<br>
 https://www.toptal.com/developers/gitignore/<br>
 
+4- Always implement tests<br>
+
+5- Lint the code and check security<br>
+prospector<br>
+flake8(Already included in prospector<br>
+autopep8(Included in vscode)<br>
+
 
