@@ -11,6 +11,7 @@ poetry add --dev pkg<br>
 https://www.toptal.com/developers/gitignore/<br>
 
 4- Always implement tests<br>
+OBS: Remember to dunder init the folder test<br>
 
 5- Lint the code and check security<br>
 prospector<br>
