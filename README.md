@@ -3,4 +3,11 @@ Guid to Use Python Projects<br>
 
 1- Configure Pyenv to configure the version of python<br>
 2- Install poetry inside the project to get the new version of python<br>
-poetry init
+poetry init<br>
+poetry add pkg<br>
+poetry add --dev pkg<br>
+
+3- Initalize with git and generate gitignore<br>
+https://www.toptal.com/developers/gitignore/<br>
+
+
