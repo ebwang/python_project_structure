@@ -18,4 +18,9 @@ prospector<br>
 flake8(Already included in prospector<br>
 autopep8(Included in vscode)<br>
 
+6-Pip-Audit to scan vulnerabilities
+pip-audit
+
+
+
 
