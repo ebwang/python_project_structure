@@ -36,13 +36,22 @@ blue<br>
 pip-audit<br>
 
 7-Documentation MkDocs<br>
-poetry add --doc mkdocs-material<br>
-poetry add --doc mkdocstrings<br>
-poetry add --doc mkdocstrings-python<br>
+poetry add --group docs mkdocs mkdocs-material
+poetry add --docs mkdocs-material<br>
+poetry add --docs mkdocstrings<br>
+poetry add --docs mkdocstrings-python<br>
 
 Run:<br>
 mkdocs new . <br>
 Will create the strcture and a folder called docs<br>
 mkdocs server -> Will start a webpage containing the docs<br>
+
+Put the sample files:
+explanation.md  how-to-guides.md  index.md  reference.md  tutorials.md
+
+Build with the mkdocs.yml outside the folder docs
+mkdocs build
+
+Ater the build will show the html pages in site folder
 
 
